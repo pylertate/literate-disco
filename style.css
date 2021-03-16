@@ -21,7 +21,8 @@ body {
   position: fixed;
   left: 0;
   right: 0;
-  margin: auto;
+  top: 0;
+  padding: 1em;
   z-index: 1;
   background-color: rgba(0, 0, 0, 0.8);
   width:auto;
