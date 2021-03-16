@@ -4,16 +4,17 @@ body {
   font-family: monospace;
 }
 .contact-form {
-  border: 2px solid green;
+  border: 2px dashed green;
   border-radius: 5px;
   margin: 5px;
   padding: 2%;
   text-align: center;
 }
 .header{
-  border: 2px solid green;
+  border: 2px green;
   border-radius: 5px;
   margin: 5px;
   padding: 2%;
   text-align: center;
+  border-style: dashed;
 }
