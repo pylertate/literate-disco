@@ -8,28 +8,31 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1 style="font-size: 50px">Send me an Email</h1>
-    <form action="https://formspree.io/f/mwkwgwbp" method="POST">
-      <label style="background-color: black">
-        Your email:
-        <input type="email" name="_replyto" />
-      </label>
-      <br />
-      <br />
-      <label>
-        Your message:
-        <textarea name="message"></textarea>
-      </label>
-     
-      <p>Do you like this site?</p>
-      <input type="radio" value="Yes" name="Yes" id="Yes" checked>
-    <label for="Yes">Yes</label> 
-      <!-- your other form fields go here -->
+    <div class="header">
+      <h1 style="font-size: 50px">Send me an Email</h1>
+    </div>
+    <div class="contact-form">
+      <form action="https://formspree.io/f/mwkwgwbp" method="POST">
+        <label>
+          Your email:
+          <input type="email" name="_replyto" />
+        </label>
+        <br />
+        <br />
+        <label>
+          Your message:
+          <textarea name="message"></textarea>
+        </label>
 
-      <button type="submit">Send</button>
-      <br>
-      <br>
-      <a href="./index.html">Home</a>
-    </form>
+        <p>Do you like this site?</p>
+        <input type="radio" value="Yes" name="Yes" id="Yes" checked />
+        <label for="Yes">Yes</label>
+        <!-- your other form fields go here -->
+        <br />
+        <br />
+        <button type="submit">Send</button>
+      </form>
+    </div>
+    <a href="./index.html">Home</a>
   </body>
 </html>
