@@ -65,7 +65,7 @@
       rgb(143, 210, 248)
     );
   }
-  20% {
+  25% {
     background: linear-gradient(black, #010325, #01053f, #010431);
   }
   100% {
@@ -81,10 +81,15 @@
   10% {
     top: 100%;
     left: 40%;
+    opacity: 1;
+  }
+  10.1%{
+    opacity: 0;
   }
   100% {
     top: 100%;
     left: 40%;
+    opacity: 0;
   }
 }
 
@@ -95,7 +100,7 @@
   10% {
     opacity: 0;
   }
-  30% {
+  15% {
     opacity: 1;
   }
 }
