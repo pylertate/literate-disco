@@ -1,0 +1,101 @@
+/* elements !!!!!!! */
+
+#background {
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  animation-name: sunsetsky;
+  animation-duration: 100s;
+  animation-iteration-count: infinite;
+}
+
+#sun {
+  width: 10em;
+  height: 10em;
+  left: 25%;
+  border-radius: 100%;
+  position: absolute;
+  background: orange;
+  animation-name: sunset;
+  animation-duration: 100s;
+  animation-iteration-count: infinite;
+}
+.moon {
+  width: 10em;
+  height: 10em;
+  top: 15%;
+  left: 40%;
+  border-radius: 100%;
+  position: absolute;
+  animation-duration: 100s;
+  animation-iteration-count: infinite;
+  position: absolute;
+  animation-name: moon-me;
+  z-index: 1;
+}
+#moon-color{
+  background: white;
+}
+
+#crater1 {
+  width: 3em;
+  height: 5em;
+  border-radius: 100%;
+ 
+  
+  position: absolute;
+  background:transparent;
+  left: 57%;
+  top: 20%;
+  z-index: 2;
+
+}
+/* animations!!!!! */
+@keyframes sunsetsky {
+  0% {
+    background: linear-gradient(
+      rgb(0, 158, 250),
+      rgb(41, 173, 250),
+      rgb(150, 216, 253),
+      rgb(143, 210, 248)
+    );
+  }
+  20% {
+    background: linear-gradient(black, #010325, #01053f, #010431);
+  }
+  100% {
+    background: linear-gradient(black, #010325, #01053f, #010431);
+  }
+}
+
+@keyframes sunset {
+  0% {
+    top: 2%;
+    left: 40%;
+  }
+  10% {
+    top: 100%;
+    left: 40%;
+  }
+  100% {
+    top: 100%;
+    left: 40%;
+  }
+}
+
+@keyframes moon-me {
+  0% {
+   opacity: 0;
+  }
+  10% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+}
