@@ -12,6 +12,25 @@ body {
   box-shadow: 0 10px 20px rgba(234, 243, 234, 0.19),
     0 6px 6px rgba(247, 250, 248, 0.23);
 }
+
+.about-page-formatting {
+  position: absolute;
+}
+#holder {
+  position: fixed;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.navbar {
+  text-align: center;
+  position: relative;
+}
+.content {
+  position: relative;
+  top: 13em;
+}
+#homepage-header {
+}
 .header {
   border: 2px green;
   border-radius: 5px;
