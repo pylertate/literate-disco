@@ -2,6 +2,7 @@ body {
   background-color: rgb(0, 0, 0);
   color: green;
   font-family: monospace;
+  text-align:justify;
 }
 .contact-form {
   border: 2px dashed green;
@@ -18,18 +19,20 @@ body {
 }
 #holder {
   position: fixed;
+  left: 0;
+  right: 0;
+  margin: auto;
   z-index: 1;
   background-color: rgba(0, 0, 0, 0.8);
+  width:auto;
 }
 .navbar {
   text-align: center;
-  position: relative;
+ 
 }
 .content {
   position: relative;
   top: 13em;
-}
-#homepage-header {
 }
 .header {
   border: 2px green;
@@ -38,6 +41,7 @@ body {
   padding: 2%;
   text-align: center;
   border-style: dashed;
+  
   box-shadow: 0 10px 20px rgba(246, 250, 246, 0.19),
     0 6px 6px rgba(247, 250, 248, 0.23);
 }
